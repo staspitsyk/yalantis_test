@@ -1,0 +1,41 @@
+.user {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user__list {
+  list-style: none;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.user__list--users {
+  list-style: decimal;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.user__list--none {
+  display: none;
+}
+.user__month {
+  font-family: Helvetica, sans-serif;
+  cursor: pointer;
+}
+.user__month--gray {
+  color: gray;
+}
+.user__month--blue {
+  color: blue;
+}
+.user__month--green {
+  color: green;
+}
+.user__month--red {
+  color: red;
+}
+.user__month--no-number {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */
